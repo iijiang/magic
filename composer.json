@@ -63,11 +63,7 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "patches": {
-          "drupal/radix": {
-            "Patch for drush 9, see https://www.drupal.org/project/radix/issues/2933383": "https://www.drupal.org/files/issues/2019-06-08/radix-2933383-16-drush9-command.patch"
-          }
-        },
+        "patches": {},
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],

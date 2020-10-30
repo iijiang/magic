@@ -11,6 +11,8 @@ proxy:
 services:
   node:
     type: node
+    ssl: true
+    sslExpose: false
     command: cd /app/web/themes/custom/magic && yarn watch
     build:
       - cd /app/web/themes/custom/magic && yarn install

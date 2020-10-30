@@ -17,6 +17,9 @@ services:
     build:
       - cd /app/web/themes/custom/magic && yarn install
       - cd /app/web/themes/custom/magic && yarn dev
+    overrides:
+      ports:
+        - 3000:3000
   appserver:
     overrides:
       environment:
